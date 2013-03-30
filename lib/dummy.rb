@@ -54,6 +54,7 @@ class DummyTextField < UITextField
 private
   def dummy
     setReturnKeyType(nil)
+    setSecureTextEntry(nil)
     setAutocapitalizationType(nil)
     setAutocorrectionType(nil)
     setSpellCheckingType(nil)
